@@ -17,7 +17,7 @@ export default function Home() {
       <section className='max-w-6xl mx-auto px-4 sm:px-8 h-screen -mt-20 grid lg:grid-cols-[1fr,400px] items-center'>
         <div className=''>
           <p className='leading-loose max-w-md mt-4'>
-            Job tracker keeps track of applied jobs.
+            Job tracker keeps track of the applied jobs.
           </p>
           <Button asChild className='mt-4'>
             <Link href='/add-job'>Get Started</Link>
@@ -26,7 +26,7 @@ export default function Home() {
         <Image
           src={LandingImg}
           alt='landing'
-          className='w-96 h-96 hidden lg:block'
+          className='w-96 h-96 hidden lg:block pb-10'
         />
       </section>
     </main>
